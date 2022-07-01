@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataFragment"
+    android:orientation="vertical"
+    android:paddingBottom="50dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#67079A"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="left"
+        android:text="Proximity sensor data of last 2 minutes:"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/proximityOutputId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="left"/>
+
+    </ScrollView>
+
+</LinearLayout>

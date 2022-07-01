@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Proximity Sensor</string>
+    <string name="sqlite">SQLite</string>
+    <string name="proximity">Proximity</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Alfaruq Marsalsani S</string>
+    <string name="hello_blank_frag">Ini Page Data</string>
+    <string name="nim">20.01.53.0040</string>
+</resources>
